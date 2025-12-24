@@ -37,7 +37,7 @@ export default function Portfolio() {
               <Linkedin size={20} />
               LinkedIn
             </a>
-            <a href="/CV_Kalif.pdf" target="_blank" rel="noopener noreferrer" 
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" 
                className="flex items-center gap-2 px-6 py-3 bg-teal-500/10 hover:bg-teal-500/20 text-teal-300 border border-teal-500/50 rounded-lg transition-all font-medium">
               <FileText size={20} />
               Resume
