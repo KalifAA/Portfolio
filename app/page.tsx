@@ -37,7 +37,7 @@ export default function Portfolio() {
               <Linkedin size={20} />
               LinkedIn
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" 
+            <a href="/CV_Kalif.pdf" target="_blank" rel="noopener noreferrer" 
                className="flex items-center gap-2 px-6 py-3 bg-teal-500/10 hover:bg-teal-500/20 text-teal-300 border border-teal-500/50 rounded-lg transition-all font-medium">
               <FileText size={20} />
               Resume
@@ -151,7 +151,7 @@ export default function Portfolio() {
                   Brain Tumor Classification
                 </h3>
                 <div className="flex gap-4">
-                  <a href="https://github.com/KalifAA/brain-tumor-classification-deep-learning" className="text-slate-400 hover:text-teal-400 transition-colors"><Github size={20} /></a>
+                  <a href="https://github.com/KalifAA/brain-tumor-classification-deep-learning" target="_blank" className="text-slate-400 hover:text-teal-400 transition-colors"><Github size={20} /></a>
                 </div>
               </div>
               <p className="text-slate-400 mb-6 leading-relaxed flex-grow">
@@ -170,7 +170,7 @@ export default function Portfolio() {
           </div>
         </section>
         <section id="contact" className="text-center max-w-2xl mx-auto mb-20">
-          <a href="mailto:your.email@example.com" 
+          <a href="mailto:kalifalbirraalfath@gmail.com" 
              className="inline-flex items-center gap-3 px-8 py-4 bg-teal-500 hover:bg-teal-600 text-slate-900 rounded-lg transition-all font-bold text-lg">
             <Mail size={20} />
             Send me an email
