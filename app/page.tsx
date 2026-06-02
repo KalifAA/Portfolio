@@ -1,14 +1,14 @@
 import React from 'react';
-import { Github, Linkedin, Mail, FileText, ExternalLink, Code2, Terminal, Cpu, Database, Layout, Smartphone, GitBranch, Atom, Palette, PenTool, FileCode } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, ExternalLink, Code2, Terminal, Cpu, Database, Layout, Smartphone, GitBranch, Atom, Palette, PenTool, FileCode} from 'lucide-react';
 
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-teal-300 selection:text-teal-900">
       <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-sm border-b border-slate-800 z-50">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-bold text-xl tracking-tight text-teal-400">KalifsPortfolio.</span>
+          <a href="#" className="font-bold text-xl tracking-tight text-teal-400">KalifsPortfolio.</a>
           <div className="flex gap-8 text-sm font-medium text-slate-400">
-            <a href="#about" className="hover:text-teal-400 transition-colors hidden sm:block">About</a>
+            <a href="#about" className="hover:text-teal-400 transition-colors">About</a>
             <a href="#projects" className="hover:text-teal-400 transition-colors">Projects</a>
             <a href="#contact" className="hover:text-teal-400 transition-colors">Contact</a>
           </div>
@@ -63,7 +63,6 @@ export default function Portfolio() {
                 <div className="absolute top-4 right-4 w-64 h-64 md:w-80 md:h-80 bg-teal-500/20 rounded-2xl -z-10 transition-all group-hover:top-2 group-hover:right-2"></div>
                 <div className="relative w-64 h-64 md:w-80 md:h-80 bg-slate-800 rounded-2xl overflow-hidden border-2 border-slate-700 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-300 cursor-pointer group">
                   <img src="/profile_img.jpg" alt="Profile" className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"/>
-                  <div className="absolute inset-0 bg-teal-500/10 group-hover:bg-transparent transition-colors"></div>
                 </div>
               </div>
            </div>
